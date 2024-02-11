@@ -8,7 +8,9 @@ def read_lines(filename: Path) -> Generator[str, None, None]:
             yield line
 
 
-def search_string_in_file(filename: Path, search_string: str, strict: bool = False) -> int:
+def search_string_in_file(
+    filename: Path, search_string: str, strict: bool = False
+) -> int:
     score = 0
 
     for line in read_lines(filename=filename):
@@ -25,7 +27,9 @@ def main():
     homework_03_dir = Path(__file__).parent
     filename = homework_03_dir / "rockyou.txt"
     search_string = input("Enter the search string: ")
-    result: int = search_string_in_file(filename=filename, search_string=search_string)
+    result: int = search_string_in_file(
+        filename=filename, search_string=search_string
+    )
 
     print(f"Lines found: {result}")
 

@@ -5,7 +5,7 @@ class Player:
     def __init__(self, first_name: str, last_name: str):
         self.first_name: str = first_name
         self.last_name: str = last_name
-        
+
     def __str__(self):
         return f"{self.first_name} {self.last_name}"
 
@@ -30,6 +30,7 @@ for player in team:
 # Jack Hill
 # Nick Doe
 # John Doe
+
 
 def dedup(collection) -> Generator[str, None, None]:
     unique_names = set()
