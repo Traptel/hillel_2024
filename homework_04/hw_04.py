@@ -52,5 +52,6 @@ for player in dedup(team):
 # Nick Doe
 
 # Explaination:
-# The dedup function should return a generator that yields the unique players in the team.
+# The dedup function should return a generator that yields the
+# unique players in the team.
 # The uniqueness of a player is determined by its first name only

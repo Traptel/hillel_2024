@@ -11,9 +11,7 @@ team: dict = {
 # Application source code
 def repr_players(players: dict):
     for number, player in players.items():
-        print(
-            f"\t[Player {number}]: {player['name']}, {player['age']}"
-        )
+        print(f"\t[Player {number}]: {player['name']}, {player['age']}")
 
 
 def player_add(name: str, age: int, number: int) -> None:

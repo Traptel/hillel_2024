@@ -1,5 +1,5 @@
-from typing import Generator
 from pathlib import Path
+from typing import Generator
 
 
 def read_lines(filename: Path) -> Generator[str, None, None]:
