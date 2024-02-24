@@ -1,0 +1,58 @@
+{
+    "results": [
+        {
+            "currency_from": "USD",
+            "currency_to": "CHF",
+            "rate": "0.88060000",
+            "timestamp": "2024-02-24 00:18:01"
+        },
+        {
+            "currency_from": "UAH",
+            "currency_to": "CHF",
+            "rate": "0.02282000",
+            "timestamp": "2024-02-24 00:18:06"
+        },
+        {
+            "currency_from": "CHF",
+            "currency_to": "USD",
+            "rate": "1.13560000",
+            "timestamp": "2024-02-24 00:18:11"
+        },
+        {
+            "currency_from": "USD",
+            "currency_to": "CHF",
+            "rate": "0.88060000",
+            "timestamp": "2024-02-24 14:52:39"
+        },
+        {
+            "currency_from": "UAH",
+            "currency_to": "CHF",
+            "rate": "0.02282000",
+            "timestamp": "2024-02-24 14:52:41"
+        },
+        {
+            "currency_from": "CHF",
+            "currency_to": "USD",
+            "rate": "1.13560000",
+            "timestamp": "2024-02-24 14:52:41"
+        },
+        {
+            "currency_from": "USD",
+            "currency_to": "CHF",
+            "rate": "0.88060000",
+            "timestamp": "2024-02-24 15:51:48"
+        },
+        {
+            "currency_from": "UAH",
+            "currency_to": "CHF",
+            "rate": "0.02282000",
+            "timestamp": "2024-02-24 15:51:51"
+        },
+        {
+            "currency_from": "CHF",
+            "currency_to": "USD",
+            "rate": "1.13560000",
+            "timestamp": "2024-02-24 15:51:51"
+        }
+    ]
+}
