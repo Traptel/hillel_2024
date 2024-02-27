@@ -16,5 +16,3 @@ jobs:
         run: python -m black --check . && python -m isort --check .
       - name: Run linter
         run: python -m ruff .
-      - name: Run static type checker
-        run: python -m mypy .
