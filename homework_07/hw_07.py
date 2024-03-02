@@ -1,6 +1,7 @@
 import json
 from dataclasses import dataclass
 from datetime import datetime
+
 import requests
 
 ALPHAVANTAGE_API_KEY = "WC91R1D8QFCGIZN9"
