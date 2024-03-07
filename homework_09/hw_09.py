@@ -50,9 +50,9 @@ if __name__ == "__main__":
         total_seq = encryption_time_seq + total_download_time_seq
 
         print(
-            f"Time taken for CPU-bound encryption task:\n"
-            f"{encryption_time_seq} seconds,\n"
-            f"I/O-bound task:{total_download_time_seq} seconds,\n"
+            f"Time taken for CPU-bound encryption task: "
+            f"{encryption_time_seq} seconds\n"
+            f"I/O-bound task: {total_download_time_seq} seconds\n"
             f"Total: {total_seq} seconds"
         )
     except Exception as e:
@@ -85,9 +85,9 @@ if __name__ == "__main__":
         total_par = encryption_time_par + download_time_par
 
         print(
-            f"Time taken for CPU-bound encryption task:\n"
-            f"{encryption_time_par} seconds,\n"
-            f"I/O-bound task:{download_time_par} seconds,\n"
+            f"Time taken for CPU-bound encryption task: "
+            f"{encryption_time_par} seconds\n"
+            f"I/O-bound task: {download_time_par} seconds\n"
             f"Total: {total_par} seconds"
         )
     except Exception as e:
